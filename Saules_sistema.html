@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <title>Saules sistēma</title>
+</head>
+<body>
+
+
+
+<header>
+    <img src="rocket2.png" class="rocket">
+</header>
+
+
+
+<main>
+
+<!--  Galvenā  daļa -->
+
+<!--  Par  -->
+
+    <div class="Sistema_Main">
+<h1 class="Sistema_Heading">Saules sistēma</h1>
+<p class="Sistema_Paragraph">Saules sistēma ir Saule un ap to riņķojošo debess ķermeņu kopums — astoņas planētas, kas veido planētu sistēmas, kā arī citi ievērojami mazāki ķermeņi, piemēram, pundurplanētas un Saules sistēmas mazie ķermeņi, piemēram, komētas un asteroīdi. Saules sistēma atrodas Piena Ceļa spirālzarā "Oriona rokā" (Orion Arm), 26 000 gaismas gadu attālumā no galaktikas centra.</p>
+<h3 class="Sistema_Heading">Nosaukumi</h3>
+<div class="Sistema_List">
+<ul>
+        <li><a onclick="ListClick(this)" id="List_Element">Saule</a></li>
+        <li><a onclick="ListClick(this)" id="List_Element">Merkurs</a></li>
+        <li>Venēra</li>
+        <li>Zeme</li>
+        <li>Marss</li>
+    </ul>
+    <ul>
+        <li>Jupiters</li>
+        <li>Saturns</li>
+        <li>Urāns</li>
+        <li>Neptūns</li>
+    </ul>
+</div>
+</div>
+
+<!--  Sistēma -->
+
+<div class="starmain" id="Saule">
+    <div class="star" onmouseenter="TrayAppear(this)" onmouseleave="TrayDisappear(this)" working = "false">
+    <a href="https://lv.wikipedia.org/wiki/Saule" target="_blank"><img src="sun.jpg" class="star_img" ></a>
+    </div>
+    <div class="traytext" onmouseenter="TrayAppear(this)" onmouseleave="TrayDisappear(this)">
+        <h1>Saule</h1>
+        <p>
+            Saule ir zvaigzne, kas atrodas Saules sistēmas centrā. Orbītā ap Sauli riņķo Zeme un pārējās Saules sistēmas planētas, kā arī asteroīdi, komētas un citi kosmiskie ķermeņi. Saule ir milzīga plazmas lode, tās masa ir aptuveni 2×1030 kg. Saule sastāv no 74% ūdeņraža un 25% hēlija, pārējo masu veido smagāki elementi (ogleklis, skābeklis, dzelzs u.c.). Saule ir apmēram 4,6 miljardus gadu veca,[10][11] bet vēl pēc 5 miljardiem gadu tā pārvērtīsies par sarkano milzi un tad — par balto punduri (skat. "Zvaigznes evolūcija"). Saule ir Zemei tuvākā un tādējādi arī vislabāk izpētītā zvaigzne.
+        </p>
+    </div>
+</div>
+
+<div class="starmain" id="Merkurs">
+    <div class="star" onmouseenter="TrayAppear(this)" onmouseleave="TrayDisappear(this)" working = "false">
+    <a href="https://lv.wikipedia.org/wiki/Merkurs" target="_blank"><img src="mercury.jpg" class="star_img" ></a>
+    </div>
+    <div class="traytext" onmouseenter="TrayAppear(this)" onmouseleave="TrayDisappear(this)">
+        <h1>Merkurs</h1>
+        <p>
+            Saule ir zvaigzne, kas atrodas Saules sistēmas centrā. Orbītā ap Sauli riņķo Zeme un pārējās Saules sistēmas planētas, kā arī asteroīdi, komētas un citi kosmiskie ķermeņi. Saule ir milzīga plazmas lode, tās masa ir aptuveni 2×1030 kg. Saule sastāv no 74% ūdeņraža un 25% hēlija, pārējo masu veido smagāki elementi (ogleklis, skābeklis, dzelzs u.c.). Saule ir apmēram 4,6 miljardus gadu veca,[10][11] bet vēl pēc 5 miljardiem gadu tā pārvērtīsies par sarkano milzi un tad — par balto punduri (skat. "Zvaigznes evolūcija"). Saule ir Zemei tuvākā un tādējādi arī vislabāk izpētītā zvaigzne.
+        </p>
+    </div>
+</div>
+
+</main>
+
+
+<footer>
+
+</footer>
+
+
+
+</body>
+</html>
